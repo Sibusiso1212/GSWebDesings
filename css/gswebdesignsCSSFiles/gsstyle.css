@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: tahoma, sans-serif;
+    background-color: black !important;
+    
+    
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 0;
+
+}
+
+
+p {
+    line-height: 1.5em;
+    letter-spacing: .1em;
+}
+
+.logo {
+
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+
+}
+
+#toggle-button {
+    background-color: white;
+    margin-top: .5em;
+    border: none;
+}
+
+.trade_mark {
+
+    font-size: 1.0em;
+    border-bottom: .2em solid #C49D5A;
+    border-top: .2em solid #C49D5A;
+    border-radius: 20em;
+    margin-top: 1em;
+    margin-right: .4em;
+    color: #C49D5A;
+}
+
+#webdesign {
+    font-family: tahoma, arial, sans-serif;
+    font-size: 0.9em;
+    color: #C49D5A;
+}
+
+#word_design {
+    color: #4B8393;
+}
+
+#the_letter_D {
+    font-style: italic;
+
+}
+
+#navBar {
+
+    text-align: center;
+    width: 100%;
+    background-color: #132848 !important;
+    z-index: 1;
+    padding-bottom: 0em;
+    opacity: .8;
+
+}
+
+Ul li a {
+
+    margin: .5em;
+    font-weight: bold;
+    color: #C49D5A !important;
+    padding: .2em;
+
+
+}
+
+li a:hover {
+
+    color: white !important;
+
+}
+
+.jumbotron {
+    width: 100% !important;
+    text-align: center;
+    margin: 2em auto;
+    background-color: black !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: grey !important;
+    font-weight: bold;
+    display: none;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
+}
+
+#add_space {
+    text-align: center;
+    margin: 3em auto;
+
+}
+
+#welcome_banner {
+
+    font-weight: bold;
+    color: grey !important;
+
+}
+
+    .card-title a {
+        text-decoration: none !important;
+        color: #006699;
+    
+    }
+
+    .card-title {
+        text-align: center;
+        background-color: #ffffff;
+        padding: .4em;
+        border-radius: .4em;
+        text-decoration: none;
+        box-shadow: .1em .1em .7em .1em;
+        color:#C49D5A;
+    
+    }
+
+    .card-text {
+
+        margin: 1em;
+        text-align: left;
+        
+    
+    }
+    
+
+.btn {
+    background-color: #C49D5A !important;
+    border: none !important;
+}
+
+
+#gs_adds {
+
+    color: darkgrey;
+    text-align: center;
+    width: 100%;
+    margin: .1em auto;
+    padding-top: 2em;
+
+
+}
+
+/* adverts cards styles */
+#social_links {
+    padding: 1em;
+    width: 30%;
+    margin: 1em auto;
+    display: inline
+}
+
+#social_links a {
+
+    margin: .4em;
+    text-decoration: none;
+    color: #C49D5A;
+    font-size: 2em;
+
+}
+
+#hrFotter {
+    margin: 1em auto;
+    width: 50%;
+}
+
+#footer {
+    text-align: center;
+    margin: .7em auto;
+    margin-bottom: 0em;
+    padding: 2em;
+    background-color: white !important;
+}
+
+/*Save for later page*/
+
+#saved-items {
+    margin-bottom: 20px;
+}
+
+#add-item {
+    display: flex;
+    align-items: center;
+}
+
+#item-url {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#saved{
+
+    color:white;
+}
+
+
+
