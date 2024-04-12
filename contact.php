@@ -1,16 +1,15 @@
 <?php
       
-       
-     
+
     if(array_key_exists("submit", $POST)){
-     
+
         $error ="";
-         if(!$POST{'name'}){
+if(!$POST{'name'}){
           
-             $error .= "Please enter your name and surname.";
-         }
-     
-     if(!$POST{'email'}){
+$error .= "Please enter your name and surname.";
+}
+
+if(!$POST{'email'}){
           
              $error .= "Please enter your email address.";
          }
@@ -31,7 +30,7 @@
              $error .= "There may be some missing information on your form, please check the following bafore you send.".$error;
          }else{
        
-          $mailTo = 'sibusiso.mhlanga@mweb.co.za';
+          $mailTo = 'gs.mhlanga2@gmail.com';
           
           $subject = $POST{'subject'};
        
@@ -76,14 +75,14 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
           
             <!--css for fullscreen view-->
-        <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsstyle.css">
+        <link rel="stylesheet" href="css/gsstyle.css">
         
-        <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsSubPagesStyle.css">
+        <link rel="stylesheet" href="css/gsSubPagesStyle.css">
         
         <!--css mobileview-->
             
             
-            <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsSubPagesStyle_mobileView.css">
+            <link rel="stylesheet" href="css/gsSubPagesStyle_mobileView.css">
             
         
          <!--Google fonts -->
